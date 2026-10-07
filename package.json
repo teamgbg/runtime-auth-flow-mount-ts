@@ -1,0 +1,23 @@
+{
+	"name": "@teamscala/runtime-auth-flow-mount",
+	"_generated": {
+		"system": "runtime-auth-flow-mount",
+		"status": "generated",
+		"edit": "edit src/ — dependencies and exports derive from imports; everything else preserved"
+	},
+	"dependencies": {
+		"@teamscala/auth": "*",
+		"@teamscala/auth-factory": "*",
+		"@teamscala/db": "*",
+		"@teamscala/os": "*",
+		"@teamscala/runtime-auth-oauth-connect": "*",
+		"@teamscala/runtime-auth-telegram-connect": "*",
+		"@teamscala/runtime-auth-whatsapp-connect": "*",
+		"@teamscala/runtime-connect-persistence": "*",
+		"@teamscala/runtime-org-authz": "*"
+	},
+	"exports": {
+		"./mount": "./src/mount.ts",
+		"./mount.ts": "./src/mount.ts"
+	}
+}
