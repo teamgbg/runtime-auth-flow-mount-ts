@@ -1,4 +1,5 @@
 {
+	"version": "0.1.0",
 	"name": "@teamscala/runtime-auth-flow-mount",
 	"_generated": {
 		"system": "runtime-auth-flow-mount",
